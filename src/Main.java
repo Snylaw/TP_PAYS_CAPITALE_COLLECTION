@@ -20,6 +20,8 @@ public class Main {
 		Pays unPays = new Pays();
 		Ville uneVille = null;		
 		
+		//Samuel Umtiti
+		
 		//Menu
 		/*
         do{
