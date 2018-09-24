@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Main {
 	
 	private static Scanner clavier;
+	
+	//Coucou c'est moi Nicolas
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -106,20 +108,20 @@ public class Main {
                     
 	            	uneVille = new Ville(nom, nbHabitant,superficie);
 	            	unPays.ajouterUneVille(uneVille);
-	            	System.out.println("Ville ajouté.");
+	            	System.out.println("Ville ajoutÃ©.");
 	            	
 	                break;
 
 	            case 3 :
-	            	System.out.println("Saisir le nom de l'animal à supprimer :");
+	            	System.out.println("Saisir le nom de l'animal Ã  supprimer :");
 	            	nom = clavier.nextLine();
 	            	if (unPays.rechercher(nom)) {
 	            		uneVille = unPays.rechercheVille(nom);
 	            		unPays.supprimerUneVille(uneVille);
-	            		System.out.println("Ville supprimé.");
+	            		System.out.println("Ville supprimÃ©.");
 	            	}
 	            	else {
-	            		System.out.println("La ville ne peut pas être supprimé");
+	            		System.out.println("La ville ne peut pas Ãªtre supprimÃ©");
 	            	}
 	            	break;
 
@@ -130,11 +132,11 @@ public class Main {
 	                break;
 
 	            case 0 : 
-	            	System.out.println("Vous avez quitté la liste.");
+	            	System.out.println("Vous avez quittÃ© la liste.");
 	                break;
 	            
 	            default :
-	            	System.out.println("Erreur de saisie, veuillez saisir à nouveau.");
+	            	System.out.println("Erreur de saisie, veuillez saisir Ã  nouveau.");
 	        }
 	        
 	        System.out.println();
